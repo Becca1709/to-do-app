@@ -1,0 +1,86 @@
+body{
+    /*background-color: rgba(231, 215, 247, 0.995);*/
+    background-image: url(./img/istockphoto-1452689888-170667a.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+   
+}
+
+.container{
+    color: rgba(252, 252, 252, 0.944);
+    min-height: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 32px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    
+    
+}
+
+.background{
+    background-color: rgba(198, 122, 242, 0.614);
+    background-size: 50%;
+    display: flex;
+    justify-content: left;
+    border-radius: 32px;
+    min-height: 200px;
+    min-width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 3rem;
+}
+
+    
+  
+h2{
+    text-align: center;
+    padding-top: 20px;
+
+}
+.app{
+    text-align: center;
+    
+} 
+
+li{
+    list-style: none;
+    text-align: left;
+    max-width: 400px;
+    height: auto;
+    font-size: 2 rem;
+
+
+}
+#toDo{
+    margin:15px 10px;
+    border-radius: 30px;
+    border-style: hidden;
+    
+}
+#btn{
+    border-radius: 30px;
+    border-style: hidden;
+    padding:5px 15px;
+    font-size: 12px;
+}
+.checkbox{
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+
+.deletebtn{
+    border-radius: 50%;
+    border: none;
+    box-sizing: 20px;
+    background-color: rgb(187, 7, 7);
+    color: white;
+    font-size: 1rem;
+    margin-left: 2rem;
+    text-align: center;
+    
+}
