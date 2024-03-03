@@ -1,4 +1,4 @@
-//DOM elements
+//DOM elements 
 const listForm = document.getElementById('todolist');
 const listContainer= document.querySelector(".list");
 const listInput= listForm["newtask"];
@@ -18,7 +18,9 @@ const addNewTask= (newtask) => {
 ;
 
 const createNewList = ({newtask}) => {
-
+if(newtask===" "){
+   alert("write task first");
+} else{
     //creates DOM elements
     const listParent= document.createElement("ul");
     const listItem= document.createElement("li"); 
@@ -29,7 +31,7 @@ const createNewList = ({newtask}) => {
     const deleteBtn =document.createElement('input'); //creates the delete btn
     deleteBtn.className= "deletebtn"; //gives a class to the btn to style it in css
     deleteBtn.type = "button"; // what type of input
-    deleteBtn.value=" x ";// text inside the btn
+   ;// text inside the btn
     
 //adds elements in list item element
    const textList= document.createTextNode("you need to "+ newtask +" ")
@@ -54,7 +56,7 @@ const createNewList = ({newtask}) => {
         listParent.remove()
      
         }
-
+    }
 }
 
 //new list is the  function that gets the info. this add the elements in the array every time the create new list is used?
